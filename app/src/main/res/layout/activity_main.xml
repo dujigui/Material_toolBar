@@ -3,13 +3,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/tool_bar" android:id="@+id/id_toolBar"/>
+    <include
+        android:id="@+id/id_toolBar"
+        layout="@layout/tool_bar" />
 
     <TextView
-        android:textColor="#ffac00"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:textColor="#ffac00" />
 
     <EditText
         android:layout_width="match_parent"
